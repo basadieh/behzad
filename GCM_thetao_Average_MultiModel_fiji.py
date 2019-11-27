@@ -1,25 +1,6 @@
-############################################################
+﻿############################################################
 ####   GCM - Sea Water Potential Temperature (Surface)  ####
 ############################################################
-
-### This part only should be run when using Spyder on fiji (to change the libraries directory to the appropriate one) and should be run only once
-
-#import sys
-#sys.path.remove('/usr/global/AnacondaPython/lib/python36.zip')
-#sys.path.append('/usr/global/AnacondaPython/envs/ees3/lib/python36.zip')
-#sys.path.remove('/usr/global/AnacondaPython/lib/python3.6')
-#sys.path.append('/usr/global/AnacondaPython/envs/ees3/lib/python3.6')
-#sys.path.remove('/usr/global/AnacondaPython/lib/python3.6/site-packages')
-#sys.path.append('/usr/global/AnacondaPython/envs/ees36/lib/python3.6/site-packages') # Appends to main directory of libraries this directory where complete list of libraries are available, so we can import netCDF4 and Basemap
-#sys.path.remove('/usr/global/AnacondaPython/lib/python3.6/lib-dynload')
-#sys.path.append('/usr/global/AnacondaPython/envs/ees36/lib/python3.6/lib-dynload')
-#sys.path.remove('/usr/global/AnacondaPython/lib/python3.6/site-packages/IPython/extensions')
-#sys.path.append('/usr/global/AnacondaPython/envs/ees36/lib/python3.6/site-packages/IPython/extensions')
-#sys.path.append('/usr/global/AnacondaPython/envs/ees36/lib/python3.6/site-packages/mpl_toolkits/')
-##sys.path.append('/usr/global/AnacondaPython/envs/ees36/share/basemap/')
-#sys.prefix='/usr/global/AnacondaPython/envs/ees36'
-
-###############################################################
 
 import os
 import numpy as np
